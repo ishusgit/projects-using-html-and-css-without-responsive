@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="watch.css">
+    <title>Womens Watch Bar</title>
+    <script src="https://use.fontawesome.com/d89efe623c.js"></script>
+    <script src="https://kit.fontawesome.com/f5d6705a2e.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+   <section>
+       <div class="circle"></div>
+        <header>
+               <ul>
+               <li ><a href="Watch.html" class="active"><i class="fa fa-home "></i>&nbsp;home</a></li>
+               <li><a href="Products.html"><i class="fa fa-product-hunt"></i>&nbsp;Products</a></li>
+               <li><a href="Brands.html"><i class="fa fa-watch"></i>&nbsp;Brands</a></li>
+               <li><a href="#"><i class="fa fa-clone"></i>&nbsp;services</a></li>
+               <li><a href="#"><i class="fa fa-phone"></i>&nbsp;contact</a></li>
+               <li><a href="#"><i class="fa fa-user-plus"></i>&nbsp;register</a></li>
+            </ul>
+            <h1>Women's Watch Bar</h1>
+        </header>
+        <div class="content">
+            <div class="photos">
+                <li><img class="one" src="red.jpeg" width="90px;" onclick="big('haii.jpeg')"></li>
+                <li><img class="two" src="skyblue.jpeg" width="100px;" height="105px;" onclick="big('haiii.jpeg')" ></li>
+                <li><img class="three" src="yellowss.png" width="123px;" height="127px;" onclick="big('yellowss.png')"></li>
+            </div>
+            <div class="text">
+               <h1>
+                   It’s time to watch <span id="hai">what happens!</span>&nbsp;<span>&#8986;</span>
+                </h1><br>
+                <p>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Everyone looks at your watch, it shows who you are,<br><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   &nbsp;your values and your personal style.</span>
+                </p><br>
+                <h2>
+                    <span id="emoji">&#128525;</span>You’re in good hands on our watch.<span>&#128154;</span>
+                </h2><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="btn">Better Starts Now</a>
+            </div>
+            <div class="bigphoto">
+               <img src="bigwhite1.jpeg"  class="big">
+               
+            </div>
+        </div>
+      <script type="text/javascript">
+
+                function big(img){
+                     document.querySelector('.big').src=img;
+         }
+
+
+
+
+
+             /*var activeImageId=1;
+             var nextImageId=1;
+             setInterval(function(){
+                  nextImageId = nextImageId + 1;
+
+                  if(nextImageId < 5) {
+                      document.getElementById("img"+activeImageId).classList.replace("visible","hidden");
+                      document.getElementById("img"+nextImageId).classList.replace("hidden","visible");
+                      activeImageId = nextImageId;
+                  }else{
+                    document.getElementById("img"+activeImageId).classList.replace("visible","hidden");
+                    document.getElementById("img"+nextImageId).classList.replace("hidden","visible");
+                     activeImageId =5;
+                     nextImageId =0;
+
+                  }
+ 
+
+             },1000);*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+        function big(img){
+              document.querySelector('.big').src=img;
+         }
+          /*let image=document.getElementsById('image');
+          let images=['image red.jpeg','image greenblur.jpeg','image blue.jpeg','image darkblue.jpeg']
+          setInterval(function(){
+              let random= Math.floor(Math.random() * 4);
+              image.src= images[random];
+         }, 800);*/
+
+      </script> 
+</section>
+ </body>
+</html>
